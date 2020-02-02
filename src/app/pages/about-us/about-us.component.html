@@ -1,0 +1,14 @@
+<div class="about-use-section">
+    <h1>Título de la sección</h1>
+    <carousel>
+      <ng-container *ngFor="let item of items;">
+        <ng-container *carouselItem>
+          <div class="item">
+            <about-us-first [user]="item[0]" [userImage]="'../../../assets/img3.jpg'" [background]="'../../../assets/foto1.PNG'"></about-us-first>
+            <about-us-second [user]="item[1]" [userImage]="'../../../assets/img2.jpg'"></about-us-second>
+            <about-us-first [user]="item[2]" [userImage]="'../../../assets/img1.jpg'" [background]="'../../../assets/foto2.PNG'"></about-us-first>
+          </div>
+        </ng-container>
+      </ng-container>
+    </carousel>
+  </div>

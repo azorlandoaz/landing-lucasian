@@ -1,0 +1,53 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+
+  <div class="left-toolbar">
+    <img class="logo-toolbar" alt="Logo" src="../assets/lucasian-logo.png" />
+  </div>
+
+  <div class="right-toolbar">
+    <div class="fast-tools">
+      <button mat-button>Opcion1</button>
+      <button mat-button>Contacts</button>
+      <button mat-icon-button class="fast-icon-tool">
+        <mat-icon>search</mat-icon>
+      </button>
+      <button mat-icon-button class="fast-icon-tool">
+        <mat-icon>shopping_cart</mat-icon>
+      </button>
+      <button mat-icon-button class="fast-icon-tool">
+        <mat-icon>account_circle</mat-icon>
+      </button>
+    </div>
+    <div class="menu-bar">
+      <button mat-button class="large">Menu1 <mat-icon>keyboard_arrow_down</mat-icon></button>
+      <button mat-button class="large">Menu2 <mat-icon>keyboard_arrow_down</mat-icon></button>
+      <button mat-button class="large">Menu3 <mat-icon>keyboard_arrow_down</mat-icon></button>
+      <button mat-button class="large">Menu4 <mat-icon>keyboard_arrow_down</mat-icon></button>
+      <button mat-button class="large">Menu5 <mat-icon>keyboard_arrow_down</mat-icon></button>
+      <button mat-raised-button class="large">Login</button>
+    </div>
+
+  </div>
+</div>
+
+<div class="content" role="main">
+  <!-- banner section -->
+  <banner-section></banner-section>
+  <!-- service section -->
+  <service-section></service-section>
+<!-- pricing section -->
+  <price-section></price-section>
+  <!-- about section -->
+  <about-us-section></about-us-section>
+<!-- footer section -->
+<footer>
+  <div class="footer-container">
+    <img src="../assets/lucasian-logo.png" alt="logo" class="footer-logo">
+    <p>Solo para pruebas</p>
+  </div>
+  
+  <button mat-raised-button class="to-top"><mat-icon>arrow_upward</mat-icon></button>
+</footer>
+
+<router-outlet></router-outlet>

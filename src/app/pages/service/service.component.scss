@@ -1,0 +1,20 @@
+.service-section {
+    text-align: center;
+  }
+
+  .services-presentation-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .service-presentation-img-container {
+    width: 23vw;
+    text-align: center;
+    color: grey;
+  }
+  
+  .service-presentation-img-invert {
+    transform: scaleX(-1);
+  }

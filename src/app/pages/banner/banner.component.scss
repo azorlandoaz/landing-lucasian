@@ -1,0 +1,47 @@
+.banner-section {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+}
+
+div.right-banner {
+    width: 50vw;
+    display: contents;
+    justify-content: flex-end;
+   }
+  
+  div.left-banner {
+    width: 50vw;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: auto;
+    p.left-banner-parag{
+        color: #888;
+        font-size: 24px;
+    }
+    .left-banner-tittle{
+        color: #888;
+        font-size: 48px;
+    }
+  }
+
+  img.banner-section-img {
+    width: 70%;
+  }
+
+  button.banner-left-button-started.mat-button {
+      background-color: #EBF2FF;
+      color: #377DFF;
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-right: 25px;
+  }
+  
+  button.banner-left-button-play.mat-icon-button {
+    background-color: #E5F9F6;
+    color: #00C9A7;
+  }
+
+  .banner-help {
+    text-align: center;
+  }

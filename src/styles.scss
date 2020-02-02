@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+button.banner-help-button.mat-button {
+    background-color: #E5F9F6;
+    color: #00C9A7;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 25px;
+    border-radius: 25px;
+}
+
+button.large.mat-button {
+    font-size: 18px;
+}
+
+button.large.mat-raised-button {
+    font-size: 18px;
+    background-color: #1976d2;
+    color: white;
+    padding: 10px;
+}

@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+    width: 20vw;
+    height: 60vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.over-content {
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    font-size: 24px;
+    color: #000;
+}
+.name {
+    position: absolute;
+    text-align: center;
+    bottom: 190px;
+    color: #000;
+    left: 130px;
+}
+.miniImage {
+    position: absolute;
+    border-radius: 50px;
+    bottom: 130px;
+    left: 160px;
+    width: 10%;
+}
+
+button.banner-left-button-started.mat-button {
+    background-color: #EBF2FF;
+    color: #377DFF;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+}

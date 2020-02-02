@@ -1,0 +1,59 @@
+.pricing-terms {
+    color: grey;
+}
+.mat-button-toggle{
+    color: grey;
+    width: 100px;
+}
+.mat-button-toggle-checked {
+    background-color: #377DFF;
+    color: white;
+}
+mat-button-toggle-group {
+    margin-top: 10px;
+}
+.promo-button {
+    position: absolute;
+    color: white;
+    background-color: #00C9A7;
+    border-radius: 30px;
+    width: 10px;
+    height: 20px;
+    line-height: 10px;
+    font-size: 10px;
+    left: 20vw;
+}
+.plan-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .pricing-container {
+    display: flex;
+    width: 42vw;
+  }
+  .pricing {
+    text-align: center;
+  }
+  .plan-section-text {
+    width: 35vw;
+    text-align: left;
+    color: grey;
+  }
+
+  .plan-section-option {
+    width: 20vw;
+    text-align: left;
+    color: grey;
+  }
+
+  .plan-section {
+      text-align: center;
+  }
+
+  .option1 {
+      width: 50%;
+      height: 50%;
+  }

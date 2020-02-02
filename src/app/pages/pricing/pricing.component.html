@@ -1,0 +1,27 @@
+<div class="plan-section">
+    <div class="plan-section-container">
+      <div class="plan-section-text">
+        <button mat-button class="banner-help-button" color="primary"><strong>Texto</strong></button>
+        <h1>Contenido extra</h1>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <mat-button-toggle-group >
+          <mat-button-toggle value="Mes" aria-label="Mes" checked>
+              Mes  
+          </mat-button-toggle>
+          <mat-button-toggle value="Año" aria-label="año">
+              Año  
+          </mat-button-toggle>
+        </mat-button-toggle-group>
+        <button mat-button class="promo-button" color="primary"><strong>10% Off</strong></button>
+      </div>
+      <div class="pricing">
+        <div class="pricing-container">
+          <div class="plan-section-option option1"><pricing-option [price]="22" [option]="'Opción 1'"></pricing-option></div>
+          <div class="plan-section-option"><pricing-option [price]="99" [option]="'Opción 2'"></pricing-option></div>
+        </div>
+        <p class="pricing-terms">*Terminos y condiciones</p>
+      </div>
+    </div>
+    <button mat-button class="banner-help-button large" color="primary"><strong>Eventos</strong></button>
+</div>
